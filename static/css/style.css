@@ -1,0 +1,6 @@
+body{font-family:system-ui,Segoe UI,Roboto,Arial;background:#f4f6f8;color:#222}
+.container{max-width:860px;margin:28px auto;padding:16px}
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.06)}
+input,button{display:block;width:100%;padding:10px;margin:8px 0;border-radius:8px;border:1px solid #ddd}
+button{cursor:pointer}
+nav{margin-bottom:12px}

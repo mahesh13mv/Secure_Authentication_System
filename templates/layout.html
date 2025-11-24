@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secure Auth Flask</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Secure Auth — Flask</h1>
+      <nav>
+        <a href="/">Login</a> |
+        <a href="/register">Register</a> |
+        <a href="/mfa-setup">MFA Setup</a> |
+        <a href="/dashboard">Dashboard</a>
+      </nav>
+    </header>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

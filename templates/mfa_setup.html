@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="card">
+  <h2>MFA Setup (TOTP)</h2>
+  <p>Login first to get a short token if your account already has MFA. Or register & then request setup.</p>
+  <input id="token" placeholder="Short token (if from login)">
+  <button id="genQr">Generate QR</button>
+  <div id="qr"></div>
+  <input id="code" placeholder="6-digit code from authenticator">
+  <button id="verify">Verify & Enable MFA</button>
+  <div id="msg"></div>
+</div>
+{% endblock %}
